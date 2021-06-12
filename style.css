@@ -12,6 +12,9 @@ main {
 }
 
 .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 350px;
     width: auto;
     background-color: #484848;
@@ -19,6 +22,15 @@ main {
 }
 
 .cartao > img {
+    height: 300px;
+    width: 300px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;   
+}
+
+.cartao > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+
 }
