@@ -37,7 +37,4 @@ pegarPersonagem = (cartao) => {
     });
 }
 
-pegarPersonagem(cartao1);
-pegarPersonagem(cartao2);
-pegarPersonagem(cartao3);
-pegarPersonagem(cartao4);
+[cartao1, cartao2, cartao3, cartao4].forEach(cartao => pegarPersonagem(cartao));
