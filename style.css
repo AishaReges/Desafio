@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #212121;
+}
+
+main {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.cartao {
+    height: 350px;
+    width: auto;
+    background-color: #484848;
+    border-radius: 5px;
+}
+
+.cartao > img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+}
